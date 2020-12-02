@@ -5,7 +5,7 @@ const app = express()
 
 app.get('/', (req, res)=>{
     console.log('an request happen in route \'/\'')
-    res.send('Hello world, From Rifki. Sekarang '+ moment().format('D MMMM YYYY, h:mm:ss a'))
+    res.send('Selamat pagi, From Rifki. Sekarang '+ moment().format('D MMMM YYYY, h:mm:ss a'))
 })
 
-app.listen(port, () => console.log(`Hello world app listening on port ${port}!`))
+app.listen(port, () => console.log(`selamat pagi app listening on port ${port}!`))
